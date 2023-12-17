@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gradient {
+    background: radial-gradient(24.67% 54.45% at 101.34% 102.01%, rgba(4, 198, 93, 0.5) 0%, rgba(4, 198, 93, 0) 100%), radial-gradient(187.03% 224.7% at 0% -1.89%, rgba(255, 140, 140, 0.8) 8.33%, rgba(164, 164, 255, 0) 100%), linear-gradient(81.13deg, #1a76ff -22.71%, #ffea96 101.06%);
+}
