@@ -8,6 +8,14 @@ import { Questions } from "@/components/sections/questions/Questions";
 import { MailIcon } from "@/assets/icons/MailIcon";
 import { Footer } from "@/components/footer/Footer";
 import { Title } from "@/components/title/Title";
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Нові знання - Електронні щоденники та журнали',
+  robots: {
+    index: false
+  }
+}
 
 export default function Home() {
   return (
