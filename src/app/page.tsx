@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex justify-center bg-[#f4f8fe] py-20 px-4 xl:px-0">
+      <section className="flex justify-center bg-[#f4f8fe] py-20 px-4 xl:px-0" id="looks">
         <div className="flex flex-col w-full max-w-6xl gap-y-8 xl:gap-y-16">
             <Title classNames="text-[#090e36]">Як це виглядає</Title>
             <div className="flex-row lg:flex justify-between">
@@ -83,7 +83,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex justify-center bg-black px-4 xl:px-0">
+      <section className="flex justify-center bg-black px-4 xl:px-0" id="support">
         <div className="flex-row lg:flex w-full max-w-6xl gap-y-16 justify-between">
             <div className="flex flex-col w-full lg:w-6/12 gap-y-8 xl:gap-y-16 py-20">
               <Title classNames="text-white">Залишились питання?</Title>
